@@ -19,7 +19,8 @@ import {
   SiNetflix,
   SiNintendo,
   SiPlaystation5,
-  SiValorant
+  SiValorant,
+  SiEslgaming
 } from "react-icons/si";
 
 
@@ -76,6 +77,9 @@ function Interests() {
       </Col>
       <Col xs={4} md={2} className="interest-icons">
         <SiValorant />
+      </Col>
+      <Col xs={4} md={2} className="interest-icons">
+        <SiEslgaming />
       </Col>
       
       

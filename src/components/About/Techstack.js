@@ -13,7 +13,8 @@ import {
   DiLinux,
   DiHtml5,
   DiMarkdown,  
-  DiDocker
+  DiDocker,
+  DiCss3
 } from "react-icons/di";
 import {
   SiRedis,
@@ -23,14 +24,18 @@ import {
   SiCsharp,
   SiDelphi,
   SiLatex,
-  SiRailway
-  
+  SiRailway,
+  SiC,
+  SiGenius
 } from "react-icons/si";
 
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -80,6 +85,9 @@ function Techstack() {
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -94,6 +102,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRailway />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiGenius/>
+      </Col>
+      
       
     </Row>
   );

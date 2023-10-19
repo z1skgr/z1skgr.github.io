@@ -31,7 +31,11 @@ import {
   SiOctave,
   SiPrettier,
   SiSelenium,
-  SiSequelize} from "react-icons/si";
+  SiSequelize,
+  SiExpress,
+  SiEslint,
+  SiDotenv,
+  SiJsonwebtokens} from "react-icons/si";
 import {
   DiEclipse,
   DiSublime,
@@ -42,7 +46,7 @@ import {
   DiNpm,
   DiPhotoshop,
   DiSqllite,
-  DiStackoverflow
+  DiStackoverflow,
 } from "react-icons/di";
 import {
   FaRaspberryPi,
@@ -50,9 +54,7 @@ import {
   
   
 } from "react-icons/fa";
-import {
-  BiCode
-} from "react-icons/bi";
+
 
 
 function Toolstack() {
@@ -206,7 +208,19 @@ function Toolstack() {
       <Col xs={4} md={2} className="tools-icons">
         < SiSequelize/>
       </Col>
-      
+      <Col xs={4} md={2} className="tools-icons">
+        < SiExpress/>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        < SiEslint/>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        < SiDotenv />
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiJsonwebtokens/>
+      </Col>
+     
       
       
       

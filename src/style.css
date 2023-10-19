@@ -441,6 +441,16 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+/* --------- */
+/* Certs */
+/* --------- */
+.certs-description {
+  color: white !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  text-align: center;
+}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -540,6 +550,21 @@ button:focus {
   margin: 8px !important;
   padding: 4px !important;
   opacity: 0.93 !important;
+  border: 1.2px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 4px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-cert-icons {
+  font-size: 2em !important;
+  margin:4px !important;
+  padding: 2px !important;
+  opacity: 0.9 !important;
   border: 1.2px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
