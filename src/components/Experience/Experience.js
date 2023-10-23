@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../../Assets/logo.png";
 import zl from "../../Assets/zl.png";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
-
+import tech from "../../Assets/tech.png";
 
 function Experience() {
   return (
@@ -22,27 +21,29 @@ function Experience() {
               imgPath={zl}
               header="Zalikas Liontas Co"
               title="Assistant Manager"
-              subtitle={"subtitle"}
-              description="Classic Solitaire Card Game build with pygame graphics in Python"
+              descriptions= {["Design, and planning on Industrial-Electromechanical projects", 
+              "Intelligent controllers, Electronic supply",
+              "PV parks, Inverters, Energy Optimization"]}
               footer="October 2022- Present | Katerini, Pieria"
-              tools= {["tech"]}
+              tools= {null}
             />
           </Col>
+       
+        
 
         </Row>
         <h3 style={{ color: "white", marginTop: "400px" }}>
-          Here are a few jobs  I've worked in  the past.
+          Former Experience.
         </h3>
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
         <Col md={4} className="experience-old-card">
             <ExperienceCard
-              imgPath={logo}
-              header="header"
-              title="title"
-              subtitle={"subtitle"}
-              description="Classic Solitaire Card Game build with pygame graphics in Python"
-              footer="footer"
-
+              imgPath={tech}
+              header="24th Armored Brigade"
+              title="IT Support"
+              descriptions= {["Archive directory from/to the headquarters", `Troubleshooting & hardware inspection`, "WAN/LAN supervision for military"]}
+              footer="Jan 2022 - Aug. 2022 | Litochoro, Greece"
+              tools={null}
             />
           </Col>
 

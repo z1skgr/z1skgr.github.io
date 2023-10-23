@@ -37,7 +37,7 @@ function ProjectCards(props) {
           </Button>
         )}
 
-        <Row  style={{ justifyContent: "center", paddingTop:"10px" }}>
+        <Row  style={{ justifyContent: "center", paddingTop:"20px" }}>
             {props.skills.map((skill, i) => {
                       return <Col key={i} xs={4} md={2} className="tech-project-icons">
                 {skill}

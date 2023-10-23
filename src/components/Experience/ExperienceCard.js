@@ -8,7 +8,7 @@ function ExperienceCard(props) {
       <Card.Header>{props.header}</Card.Header>
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Col >
-      <Card.Img style={{height:"10em", width:"25em "}} variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img style={{height:"8em", width:"20em "}} variant="top" src={props.imgPath} alt="card-img" />
       <Card.Title>{props.title}</Card.Title>
       </Col>
       </Row>
@@ -16,11 +16,24 @@ function ExperienceCard(props) {
       
       
       <Card.Body>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Card.Text style={{textAlign: "left"}}>
-          {props.tools}
+      <ul>
+
+         
+        {props.descriptions.map((des,i)=>{
+          return <li key={i}>
+            {des}
+          </li>
+            
+          
+        })}
+     </ul>
+         
+
+        <Card.Text style={{marginTop:"25px",textAlign: "left"}}>
+          {props.tools ? "Tools:" : ""}
+          {props.tools ? props.tools.map((tl,i)=>{
+           return ` ${tl},`
+          }) : ""}
         </Card.Text>
        
         {"\n"}

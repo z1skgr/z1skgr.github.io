@@ -12,12 +12,27 @@ function AboutCard() {
             from <span className="purple"> Katerini, Greece.</span>
             <br /> I am an ECE with rising experience. 
             <br/>
-            Additionally, I am currently employed as a Assistant Manager at
-            Zalikas-Liontas.
+            Additionally, I am currently employed as 
+            <br/>
+            <br/><b>Assistant Manager</b> at
+            <br/>
+            <br/>
+            </p>
+            <ul style={{listStyleType:"none"}}>
+            <li>
+            <u style={{justifyContent: "center", paddingBottom: "2px", paddingTop: "10px", textAlign:"center"}}> 
+              Zalikas-Liontas Construction Co. </u></li>      
+            </ul>  
+
+<p style={{ textAlign: "justify" }}>
+            <br/>
+             dedicated to Indrustrial, Electromechanical, Energy Projects
+            <br />
+            <br />
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
-          </p>
+            </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games

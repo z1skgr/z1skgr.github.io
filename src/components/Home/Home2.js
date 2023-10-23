@@ -41,12 +41,12 @@ function Home2() {
               Οpen to learning stuff that makes me intrigued.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever possible, I apply my passion for developing software
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Frameworks
                 </b>
               </i>
               &nbsp; like
