@@ -1,16 +1,26 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-
+import { Col, Row } from "react-bootstrap";
 function ExperienceCard(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="experience-card-view">
+      
       <Card.Header>{props.header}</Card.Header>
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <Col >
+      <Card.Img style={{height:"10em", width:"25em "}} variant="top" src={props.imgPath} alt="card-img" />
       <Card.Title>{props.title}</Card.Title>
+      </Col>
+      </Row>
+      
+      
+      
       <Card.Body>
-          <Card.Subtitle>{props.subtitle}</Card.Subtitle>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
+        </Card.Text>
+        <Card.Text style={{textAlign: "left"}}>
+          {props.tools}
         </Card.Text>
        
         {"\n"}
