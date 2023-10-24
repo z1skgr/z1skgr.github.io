@@ -18,7 +18,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [C.Ziskas](https://github.com/z1skgr). Thanks!
+You can fork this repo. Make changes of your own. Please give me proper credit by linking back to [C.Ziskas](https://github.com/z1skgr). Thanks!
 
 ## Built With
 
