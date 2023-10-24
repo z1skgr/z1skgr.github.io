@@ -26,7 +26,8 @@ import {
   SiLatex,
   SiRailway,
   SiC,
-  SiGenius
+  SiGenius,
+  SiBootstrap
 } from "react-icons/si";
 
 
@@ -105,8 +106,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
       <SiGenius/>
       </Col>
-      
-      
+      <Col xs={4} md={2} className="tech-icons">
+      <SiBootstrap/>
+      </Col>
     </Row>
   );
 }

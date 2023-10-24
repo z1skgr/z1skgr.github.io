@@ -1,14 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import { Container, Row, Col } from "react-bootstrap"
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillMail,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa"
 
+import myimg from "../../Assets/avatar.png"
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -57,7 +58,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg}  style={{ borderRadius: "50%",  width: "400px"}} className="img-fluid" alt="avatar" />
+              <img src={myimg}  style={{ borderRadius: "50%",  width: "400px"}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

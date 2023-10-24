@@ -507,6 +507,15 @@ button:focus {
   height: auto !important;
 }
 
+.project-top-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: 120% !important;
+  width: 50% !important;
+}
+
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;

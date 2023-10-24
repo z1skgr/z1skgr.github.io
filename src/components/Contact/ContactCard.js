@@ -1,9 +1,6 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-
-
-
 import { AiFillMail } from "react-icons/ai";
 import {  pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";

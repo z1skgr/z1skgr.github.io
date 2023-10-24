@@ -35,7 +35,8 @@ import {
   SiExpress,
   SiEslint,
   SiDotenv,
-  SiJsonwebtokens} from "react-icons/si";
+  SiJsonwebtokens,
+  SiGithubpages} from "react-icons/si";
 import {
   DiEclipse,
   DiSublime,
@@ -151,8 +152,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tools-icons">
         <  SiOctave />
       </Col>
-      
-      
+      <Col xs={4} md={2} className="tools-icons">
+        <  SiGithubpages />
+      </Col>
 
       
       

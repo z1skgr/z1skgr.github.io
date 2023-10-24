@@ -8,7 +8,7 @@ import tomasulo from "../../Assets/Projects/tomasulo.png";
 import solitaire from "../../Assets/Projects/solitaire.png";
 import nqueens from "../../Assets/Projects/nqueens.png";
 import intel from "../../Assets/Projects/intc.webp";
-
+import homepage from "../../Assets/Projects/homepage.gif";
 
 import {
   DiPython,
@@ -16,6 +16,9 @@ import {
   DiLinux,
   DiEclipse,
   DiSublime,
+  DiReact,
+  DiNodejs,
+  DiCss3
 } from "react-icons/di";
 import {
   SiIntel,
@@ -23,6 +26,11 @@ import {
   SiPycharm,
   SiXilinx,
   SiGenius,
+  SiVisualstudiocode,
+  SiGithubpages,
+  SiGithubactions,
+  SiNodemon,
+  SiBootstrap
   
   
 } from "react-icons/si";
@@ -40,6 +48,20 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-top-card">
+            <ProjectCard
+              imgPath={homepage}
+              isBlog={false}
+              title="Portfolio"
+              description="My personal site using React.JS and Bootstrap"
+              ghLink="https://github.com/z1skgr/z1skgr.github.io"
+              skills={[  <DiReact />, <SiVisualstudiocode/>, <SiGithubpages/>, <DiNodejs/>, <DiCss3/>, <  SiGithubactions />, < SiNodemon/>, <SiBootstrap/>
+                ]}
+              demoLink="https://z1skgr.github.io"
+            />
+          </Col>
+        </Row>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
