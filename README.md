@@ -36,7 +36,7 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with React-Bootstrap and Css customizing colors**
 
 **📱 Fully Responsive**
 
@@ -53,6 +53,34 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
+
+## Deploy
+
+1. Installation: `npm install`
+    - node
+    - npm
+    - yarn
+
+2. In the project directory, you can run: `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+3. Run commands: 
+```
+git remote add <name-of-remote> <url-of-repository>
+git push --set-upstream origin master
+yarn add gh-pages
+```
+
+4. Edits on `package.json`
+```
+"predeploy": "npm run build", <----------- #1
+"deploy": "gh-pages -d build", <---------- #2
+```
+
+5. Execute deploy `npm run deploy`
 
 ## Usage Instructions
 

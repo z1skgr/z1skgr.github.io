@@ -1,9 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.4.1",
-  "homepage": "https://z1skgr/z1skgr.github.io",
+  "homepage": "https://z1skgr.github.io",
   "private": true,
-  
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -36,9 +35,7 @@
     "build": "react-scripts build",
     "dev": "nodemon index.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "jest": "jest App.test.js"
-    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -59,6 +56,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/preset-react": "^7.22.15",
     "@iconify/react": "^4.1.1",
@@ -66,6 +64,5 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-    
   }
 }
