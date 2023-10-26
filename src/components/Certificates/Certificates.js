@@ -78,15 +78,15 @@ function Certificates() {
 </Container>
 
 <CertificateCard num="1" title={"Full Stack Open"} year="2023" link="https://fullstackopen.com/en" 
-skills={[  <DiReact />, <DiJavascript1/>, < DiMongodb/> , <DiNodejs/>, <SiTypescript/>, <DiGit/>, <SiApollographql/>, < SiRedux/>,
+skills={[  <DiReact />, <DiJavascript1/>, <DiMongodb/> , <DiNodejs/>, <SiTypescript/>, <DiGit/>, <SiApollographql/>, <SiRedux/>,
 <SiNodemon/>, <SiPrettier/>, <SiCypress/>, <SiJest/> , <SiExpress/> , <SiRailway/>, <SiPostman/>, <SiEslint/>, <SiLodash/>, <DiCss3 />, <SiDotenv/>
 ]}/>
 <CertificateCard num="2" title={"Full Stack Open React Native"} year="2023" link="https://fullstackopen.com/en/part10"  
-skills={[  < SiAndroidstudio /> , <SiExpo/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>
+skills={[  <SiAndroidstudio /> , <SiExpo/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>
 ]}/>
 <CertificateCard num="3" title={"Full Stack Open Databases"} year="2023" link="https://fullstackopen.com/en/part13"  
-skills={[  < SiPostgresql /> , <SiSequelize/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>, <DiDocker/>,
-<SiExpress/>, <  SiGithub/>, <DiNodejs/>, <SiJsonwebtokens/>
+skills={[  <SiPostgresql /> , <SiSequelize/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>, <DiDocker/>,
+<SiExpress/>, <SiGithub/>, <DiNodejs/>, <SiJsonwebtokens/>
 ]}/>
 <Particle/>
 </Container>

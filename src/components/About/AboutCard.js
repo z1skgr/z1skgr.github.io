@@ -20,7 +20,7 @@ function AboutCard() {
             </p>
             <ul style={{listStyleType:"none"}}>
             <li>
-            <u style={{justifyContent: "center", paddingBottom: "2px", paddingTop: "10px", textAlign:"center"}}> 
+            <u style={{justifyContent: "center", paddingBottom: "2px", paddingTop: "10px", textAlign:"center", marginRight: "80px"}}> 
               Zalikas-Liontas Construction Co. </u></li>      
             </ul>  
 
@@ -38,7 +38,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Track N Field
+              <ImPointRight /> Track & Field
             </li>
             <li className="about-activity">
               <ImPointRight /> Role-play games
