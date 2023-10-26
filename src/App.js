@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Certificates from "./components/Certificates/Certificates";
 import Experience from "./components/Experience/Experience.js";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
