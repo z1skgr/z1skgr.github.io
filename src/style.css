@@ -628,6 +628,9 @@ button:focus {
   .tech-project-icons {
     margin: 8px !important;
   }
+  .tech-cert-icons {
+    margin: 7px !important;
+  }
 }
 
 .tech-project-icons:hover {
@@ -638,6 +641,16 @@ button:focus {
 .tech-project-icon-images {
   padding: 18px !important;
   line-height: 1.8 !important;
+}
+
+.tech-cert-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.1px solid rgba(197, 115, 230, 0.883) !important;
+}
+.tech-cert-icon-images {
+  padding: 16px !important;
+  line-height: 1.6 !important;
 }
 
 
