@@ -512,8 +512,8 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: 120% !important;
-  width: 50% !important;
+  height: 110% !important;
+  width: auto !important;
 }
 
 .project-card-view {
@@ -642,20 +642,24 @@ button:focus {
 
 
 @media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
+  .tech-icons, .tools-icons, .interest-icons {
+    margin: 7px !important;
+    transform: scale(0.8);
+    
   }
 }
 
-.tech-icons:hover {
+.tech-icons:hover, .interest-icons:hover, .tools-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
-.tech-icon-images {
+.tech-icon-images, .interest-icon-images, .tools-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
 }
+
+
 
 .quote-card-view {
   border: none !important;

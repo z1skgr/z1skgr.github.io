@@ -33,7 +33,7 @@ function Experience() {
 
         </Row>
         <h3 style={{ color: "white", marginTop: "400px" }}>
-          Former Experience.
+          Former Experience
         </h3>
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
         <Col md={4} className="experience-old-card">

@@ -10,7 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa"
 
 import myimg from "../../Assets/avatar.png"
-function Home2() {
+function Personals() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -116,4 +116,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Personals;
