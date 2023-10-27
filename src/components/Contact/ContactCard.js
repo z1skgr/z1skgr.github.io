@@ -1,15 +1,10 @@
 import React, {useRef, useState} from "react";
 import { Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import { AiFillMail } from "react-icons/ai";
-import {  pdfjs } from "react-pdf";
+
+
 
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const SERVICE_ID = "service_ypirwh1"
 const TEMPLATE_ID = "template_024cef7"

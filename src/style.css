@@ -512,7 +512,7 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: 110% !important;
+  height: auto !important;
   width: auto !important;
 }
 
@@ -838,4 +838,8 @@ button:focus {
 #emailHelp {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.form-group {
+  
 }
