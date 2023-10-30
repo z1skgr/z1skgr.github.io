@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope,faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-import logo from "../../Assets/logo2.png";
+import logo from "../../Assets/logo2.gif";
 
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
@@ -81,7 +81,8 @@ function ContactForm() {
                 src={logo}
                 alt="logo"
                 className="img-fluid"
-                style={{ maxHeight: "450px", borderRadius:150 }}
+                style={{ maxHeight: "450px", borderRadius:100, height: "8em",
+                width: "10em" }}
               />
             </div>
   <div class="col-sm-6">
