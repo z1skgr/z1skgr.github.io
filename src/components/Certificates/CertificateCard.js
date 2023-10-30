@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 
-/* <a href="https://github.com/z1skgr"
-            target="_blank"
-            rel="noreferrer"
-            style={{color:"white", textAlign:"left"}}> */
+
 
 function CertificateCard(props) {
   return (

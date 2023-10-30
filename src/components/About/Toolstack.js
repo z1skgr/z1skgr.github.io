@@ -48,6 +48,7 @@ import {
   DiPhotoshop,
   DiSqllite,
   DiStackoverflow,
+  DiVisualstudio
 } from "react-icons/di";
 import {
   FaRaspberryPi,
@@ -154,6 +155,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tools-icons">
         <  SiGithubpages />
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <  DiVisualstudio />
       </Col>
 
       

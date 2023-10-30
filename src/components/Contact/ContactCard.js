@@ -17,26 +17,11 @@ function ContactCard() {
       </p>
       </div>
 
-
-
-
           <Row style={{ paddingTop:"50px", justifyContent: "center", position: "relative" }}>
-    
-   <ContactForm/>
-
-       
+          <ContactForm/>       
           </Row>
 
-
-
-
-
-  
- </div>
-
-
-
-      
+     </div>  
   );
 }
 

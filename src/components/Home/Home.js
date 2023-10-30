@@ -6,10 +6,11 @@ import Type from "./Type";
 import main from "../../Assets/home-main.png";
 
 function Home() {
+  
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -26,7 +27,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+                <Type/>
               </div>
             </Col>
 
@@ -40,7 +41,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Particle />
       </Container>
+      
       <Personals />
     </section>
   );

@@ -9,6 +9,7 @@ import solitaire from "../../Assets/Projects/solitaire.png";
 import nqueens from "../../Assets/Projects/nqueens.png";
 import intel from "../../Assets/Projects/intc.webp";
 import homepage from "../../Assets/Projects/homepage.gif";
+import RH from "../../Assets/Projects/RH.gif";
 
 import {
   DiPython,
@@ -18,7 +19,8 @@ import {
   DiSublime,
   DiReact,
   DiNodejs,
-  DiCss3
+  DiCss3,
+  DiVisualstudio
 } from "react-icons/di";
 import {
   SiIntel,
@@ -30,12 +32,18 @@ import {
   SiGithubpages,
   SiGithubactions,
   SiNodemon,
-  SiBootstrap
-  
+  SiBootstrap,
+  SiTensorflow,
+  SiPytorch,
+  SiAnaconda,
+  SiOverleaf,
+  SiCsharp
   
 } from "react-icons/si";
 import {
-  FaRaspberryPi
+  FaRaspberryPi,
+  FaUnity,
+  
 } from "react-icons/fa";
 
 function Projects() {
@@ -136,10 +144,23 @@ function Projects() {
             <ProjectCard
               imgPath={anac}
               isBlog={false}
-              title="ANAC Competion"
+              title="ANAC Competition"
               description="Agent participating to local Automated Negotiation Agent Competition"
               ghLink="https://github.com/z1skgr/ANAC-competition"
               skills={[   <DiJava />, <SiGenius/>, <DiEclipse/>
+                ]}
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RH}
+              isBlog={false}
+              title="RH implementation"
+              description="Evolutionary algorithm analysis determing player's profile in Unity using ml-agents"
+              ghLink="https://github.com/z1skgr/RH_-drive_car"
+              skills={[  <SiTensorflow/>, <SiPytorch/>, <SiAnaconda/>, <SiOverleaf/>, <FaUnity/>, <SiCsharp/>, <DiVisualstudio/>
                 ]}
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />

@@ -7,11 +7,16 @@ import {
   AiFillMail,
   AiFillInstagram,
 } from "react-icons/ai";
+
 import { FaLinkedinIn } from "react-icons/fa"
 
+
 import myimg from "../../Assets/avatar.png"
+
 function Personals() {
-  return (
+
+  
+    return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
