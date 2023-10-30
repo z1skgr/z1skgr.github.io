@@ -47,9 +47,8 @@ function Personals() {
               Οpen to learning stuff that makes me intrigued.
               <br />
               <br />
-              Whenever possible, I apply my passion for developing software
-              with <b className="purple">Node.js</b> and
-              <i>
+              Whenever possible, I apply my interest for developing software
+              with  <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Frameworks

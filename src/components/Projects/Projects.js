@@ -73,6 +73,18 @@ function Projects() {
         <h4 style={{ marginTop:"125px", color: "white" }}>
           Here are a few projects I've worked on recently.
         </h4>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RH}
+              isBlog={false}
+              title="RH implementation"
+              description="Evolutionary algorithm analysis determing player's profile in Unity using ml-agents"
+              ghLink="https://github.com/z1skgr/RH_-drive_car"
+              skills={[  <SiTensorflow/>, <SiPytorch/>, <SiAnaconda/>, <SiOverleaf/>, <FaUnity/>, <SiCsharp/>, <DiVisualstudio/>
+                ]}
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -153,18 +165,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={RH}
-              isBlog={false}
-              title="RH implementation"
-              description="Evolutionary algorithm analysis determing player's profile in Unity using ml-agents"
-              ghLink="https://github.com/z1skgr/RH_-drive_car"
-              skills={[  <SiTensorflow/>, <SiPytorch/>, <SiAnaconda/>, <SiOverleaf/>, <FaUnity/>, <SiCsharp/>, <DiVisualstudio/>
-                ]}
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+      
 
         </Row>
       </Container>
