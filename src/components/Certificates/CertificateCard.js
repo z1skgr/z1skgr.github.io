@@ -1,42 +1,52 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
-
+/* <a href="https://github.com/z1skgr"
+            target="_blank"
+            rel="noreferrer"
+            style={{color:"white", textAlign:"left"}}> */
 
 function CertificateCard(props) {
   return (
 
     <Container>
-
-    <Row style={{ justifyContent: "center" }}>
-         <Col md={3} className="certs-description">
-         <h1 style={{ fontSize: "1.1em" }}>
-               {props.num}
-             </h1>
-           </Col>
-           <Col md={3} className="certs-description">
-         <a href="https://github.com/z1skgr"
-            target="_blank"
-            rel="noreferrer"
-            style={{color:"white"}}> {props.title} </a>
-           </Col>
-           <Col md={3} className="certs-description">
-         <h1 style={{ fontSize: "1.1em" }}>
-               {props.year}
-             </h1>
-           </Col>
-
-            <Col md={3} className="certs-description">
-            <Row style={{justifyContent: "center"}} className="certs-description">
-                      {props.skills.map((skill, i) => {
+      <div className="d-flex justify-content-between" style={{color:'white', marginTop: "auto" ,marginBottom: "auto", marginBottom:"10px"}}>
+    <div className="col-md-auto" style={{justifyContent:"center"}} >
+    {props.num}
+    </div>
+    <div className="col-md-2" style={{justifyContent:"center"}}>
+    {props.title}
+    </div>
+    <div className="col-md-auto" style={{justifyContent:"center"}}>
+    {props.year}
+    </div>
+    <div className="col-md-4" style={{justifyContent:"center"}}>
+      <Row>
+      {props.skills.map((skill, i) => {
                                   return <Col key={i} xs={4} md={1} className="tech-cert-icons">
                             {skill}
-                    </Col>
-                                })}
-                      
-                      </Row>
-            </Col>
-            </Row>
+                            </Col>;})}
+      </Row>
+    
+    </div>
+    <div className="col-md-auto" style={{justifyContent:"center"}}>
+      <a href= {props.githublink}
+            target="_blank"
+            rel="noreferrer"
+            style={{color:"white", textAlign:"left"}}>
+      <button type="button" className="btn btn-success">Git Hub</button>
+        </a>
+        <a href={props.link}
+            target="_blank"
+            rel="noreferrer"
+            style={{color:"white", textAlign:"left", marginLeft: "10px"}}>
+      <button type="button" className="btn btn-success">Site</button>
+        </a>
+
+    </div>
+
+    </div>
+
         </Container>
   );
 }
