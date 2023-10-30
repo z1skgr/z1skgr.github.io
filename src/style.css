@@ -629,7 +629,7 @@ button:focus {
     margin: 8px !important;
   }
   .tech-cert-icons {
-    margin: 7px !important;
+    margin: 5px !important;
   }
 }
 
@@ -644,9 +644,9 @@ button:focus {
 }
 
 .tech-cert-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.02) !important;
   overflow: hidden !important;
-  border: 2.1px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.0px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-cert-icon-images {
   padding: 16px !important;
