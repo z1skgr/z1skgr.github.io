@@ -56,6 +56,8 @@ The page will reload if you make edits.
 
 ## Deploy
 
+
+
 1. Installation: `npm install`
     - node
     - npm
@@ -80,7 +82,10 @@ yarn add gh-pages
 "deploy": "gh-pages -d build", <---------- #2
 ```
 
-5. Execute deploy `npm run deploy`
+5. Github, runs the build process and publishes a website using [GitHub pages](https://pages.github.com/). Follow 
+[Deploy steps](https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/) for more information.
+
+6. Execute deploy `npm run deploy`
 
 ## Usage Instructions
 
