@@ -8,10 +8,10 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 180,
+            value: 200,
             density: {
               enable: true,
-              value_area: 1600,
+              value_area: 1800,
             },
           },
           line_linked: {

@@ -20,7 +20,7 @@ function Footer() {
           <h3>Updated by cziskas</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright <CgCopyright/> {year} CZ</h3>
+          <h3> <CgCopyright/> CZ  {year}</h3>
           
         </Col>
         <Col md="4" className="footer-body">

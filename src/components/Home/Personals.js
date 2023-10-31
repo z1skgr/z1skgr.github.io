@@ -22,7 +22,7 @@ function Personals() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ME <span className="purple">  MYSELF </span> & I
             </h1>
             <p className="home-about-body">
               Programming is my thing and I have at least learnt
