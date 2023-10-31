@@ -20,7 +20,7 @@ function CertificateCard(props) {
     <div className="col-md-4" style={{justifyContent:"center", marginLeft:"20px"}}>
       <Row>
       {props.skills.map((skill, i) => {
-                                  return <Col key={i} xs={4} md={1} className="tech-cert-icons">
+                                  return <Col key={i} xs={4} md={2} className="tech-cert-icons">
                             {skill}
                             </Col>;})}
       </Row>

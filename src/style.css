@@ -644,13 +644,13 @@ button:focus {
 }
 
 .tech-cert-icons:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.2) !important;
   overflow: hidden !important;
   border: 2.0px solid rgba(197, 115, 230, 0.883) !important;
 }
 .tech-cert-icon-images {
-  padding: 16px !important;
-  line-height: 1.6 !important;
+  padding: 20px !important;
+  line-height: 1.8 !important;
 }
 
 
