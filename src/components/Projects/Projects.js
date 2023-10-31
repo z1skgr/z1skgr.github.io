@@ -73,6 +73,7 @@ function Projects() {
         <h4 style={{ marginTop:"125px", color: "white" }}>
           Here are a few projects I've worked on recently.
         </h4>
+        <Row style={{justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RH}
@@ -85,6 +86,8 @@ function Projects() {
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
+          </Row>
+       
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
