@@ -74,9 +74,9 @@ function ContactForm() {
 
   return (
 
-  <div class="container-fluid" style={{marginTop:"100px",marginBottom:"200px"}}>
-  <div class="row">
-  <div class="col-sm-3">
+  <div className="container-fluid" style={{marginTop:"100px",marginBottom:"200px"}}>
+  <div className="row">
+  <div className="col-sm-3">
   <img
                 src={logo}
                 alt="logo"
@@ -85,7 +85,7 @@ function ContactForm() {
                 width: "10em" }}
               />
             </div>
-  <div class="col-sm-6">
+  <div className="col-sm-6">
           <form ref={form} onSubmit={sendEmail}>
   <div className="form-group" >
     <label htmlFor="exampleInputEmail1">Email address</label>
@@ -104,8 +104,8 @@ function ContactForm() {
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
   </div>
-  <div class="col-sm-3">
-  <ul class="list-unstyled mb-0">
+  <div className="col-sm-3">
+  <ul className="list-unstyled mb-0">
           <li>
           <FontAwesomeIcon className='icon' icon={faMap}/>
             <p>Katerini, CA 60 100, Greece</p>
@@ -116,7 +116,7 @@ function ContactForm() {
           </li>
           <li>
           <FontAwesomeIcon className='icon' icon={faEnvelope}/>
-            <p class="mb-0">cziskas@gmail.com</p>
+            <p className="mb-0">cziskas@gmail.com</p>
           </li>
         </ul>
             </div>
