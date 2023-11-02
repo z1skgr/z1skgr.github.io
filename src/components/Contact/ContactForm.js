@@ -88,16 +88,16 @@ function ContactForm() {
   <div className="col-sm-6">
           <form ref={form} onSubmit={sendEmail}>
   <div className="form-group" >
-    <label htmlFor="exampleInputEmail1">Email address</label>
-    <input id="from_email"  value={formIn.from_email}  type="from_email" name="from_email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" onChange={handleEmail}/>
+    <label htmlFor="from_email">Email address</label>
+    <input id="from_email"  value={formIn.from_email}  type="email" name="from_email" className="form-control" aria-describedby="emailHelp" placeholder="Enter email" onChange={handleEmail}/>
     <small id="emailHelp"  className="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div className="form-group">
-    <label htmlFor="exampleInput1">Name</label>
+    <label htmlFor="from_name">Name</label>
     <input type="from_name" className="form-control" id="from_name" name="from_name" value={formIn.from_name} onChange={handleName}/>
   </div>
   <div className="form-group">
-    <label htmlFor="exampleInputMessage1">Message</label>
+    <label htmlFor="message">Message</label>
     <input type="message" className="form-control" id="message" name="message" value={formIn.message} onChange={handleMessage}/>
   </div>
   

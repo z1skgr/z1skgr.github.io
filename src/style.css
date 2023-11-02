@@ -577,7 +577,7 @@ button:focus {
   color: white !important;
 }
 
-.tech-icons,.tools-icons, .interest-icons {
+.tech-icons,.tools-icons, .interest-icons, .personal-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
@@ -655,14 +655,14 @@ button:focus {
 
 
 @media (max-width: 767px) {
-  .tech-icons, .tools-icons, .interest-icons {
+  .tech-icons, .tools-icons, .interest-icons, .personal-icons {
     margin: 7px !important;
     transform: scale(0.8);
     
   }
 }
 
-.tech-icons:hover, .interest-icons:hover, .tools-icons:hover {
+.tech-icons:hover, .interest-icons:hover, .tools-icons:hover, .personal-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
