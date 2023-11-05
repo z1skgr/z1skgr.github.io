@@ -10,16 +10,9 @@ import {
     FaInstagram,
     FaFacebook,
     FaDAndDBeyond,
-    FaGoogle,
     FaLinkedin,
-    FaPaypal,
-    FaPinterest,
-    FaReddit,
     FaSkype,
-    FaSpotify,
-    FaTelegram,
-    FaViber,
-    FaYahoo
+    FaSteam,    
   } from "react-icons/fa";
 
 function Social() {
@@ -34,72 +27,43 @@ function Social() {
    
   
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaTelegram />
-        <SocialForm title={"Telegram"} footer={"z1skgr"} link={"https://github.com/z1skgr"}/>
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaYahoo />
-        <SocialForm title={"Yahoo"} footer={"google.gr"} />
-      </Col>
+
       <Col xs={4} md={2} className="personal-icons">
         <FaDiscord />
-        <SocialForm title={"Discord"} footer={"Telegram"} />
+        <SocialForm title={"Discord"} footer={"z1skgr"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaTwitch />
-        <SocialForm title={"Twitch"} footer={"Telegram"} />
+        <SocialForm title={"Twitch"} footer={"z1skgr"} link={"https://www.twitch.tv/z1skgr"}/>
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaInstagram />
-        <SocialForm title={"Instagram"} footer={"Telegram"} />
+        <SocialForm title={"Instagram"} footer={"Christos Ziskas"} link={"https://www.linkedin.com/in/christos-ziskas-1b683822b"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaFacebook />
-        <SocialForm title={"Facebook"} footer={"Telegram"} />
+        <SocialForm title={"Facebook"} footer={"Zisk"} link={"https://www.facebook.com/ZiskTheName"}/>
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaDAndDBeyond/>
-        <SocialForm title={"DnD Beyond"} footer={"Telegram"} />
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaGoogle />
-        <SocialForm title={"Google"} footer={"Telegram"} />
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaReddit />
-        <SocialForm title={"Reddit"} footer={"Telegram"} />
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaSpotify/>
-        <SocialForm title={"Spotify"} footer={"Telegram"} />
+        <SocialForm title={"DnD Beyond"} footer={"Zisk"} link={"https://www.dndbeyond.com/members/Zisk"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaSkype />
-        <SocialForm title={"Skype"} footer={"Telegram"} />
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaViber />
-        <SocialForm title={"Viber"} footer={"Telegram"} />
-      </Col>
-      <Col xs={4} md={2} className="personal-icons">
-        <FaPaypal  />
-        <SocialForm title={"PayPal"} footer={"Telegram"} />
+        <SocialForm title={"Skype"} footer={"Christos Ziskas"} link="https://secure.skype.com/portal/profile?intsrc=client-_-windows-_-8.106.0.212-_-.userInfo.profile&tcg=a1abc8c1-f259-4bb8-985b-1f93838fd989" />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <SiYoutube />
-        <SocialForm title={"Youtube"} footer={"Telegram"} />
+        <SocialForm title={"Youtube"} footer={"@christosziskas7752"} link={"https://www.youtube.com/channel/UCyDkbKI8N25oDG7SrBz2JJw"} />
       </Col>
-
       <Col xs={4} md={2} className="personal-icons">
         <FaLinkedin  />
-        <SocialForm title={"LinkedIn"} footer={"Telegram"} />
+        <SocialForm title={"LinkedIn"} footer={"@christosziskas"} link={"https://www.linkedin.com/in/christos-ziskas-1b683822b/"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
-        <FaPinterest />
-        <SocialForm title={"Pinterest"} footer={"Telegram"} />
+        <FaSteam />
+        <SocialForm title={"Steam"} footer={"G0ds.Bless"} link={"https://steamcommunity.com/profiles/76561198118951691/"} />
       </Col>
-
 
 
           
