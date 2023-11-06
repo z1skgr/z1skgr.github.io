@@ -10,7 +10,7 @@ function SocialForm(props) {
 
   return (
 
-    <Card className="experience-card-view">
+    <Card className="social-card-view">
       
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Col >

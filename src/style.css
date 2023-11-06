@@ -455,7 +455,7 @@ button:focus {
 
 
 
-.experience-card {
+.experience-card, .social-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -474,13 +474,13 @@ button:focus {
 
 }
 
-.experience-card-view:hover {
+.experience-card-view:hover, .social-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
-.experience-card-view {
+.experience-card-view, .social-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
@@ -655,10 +655,14 @@ button:focus {
 
 
 @media (max-width: 767px) {
-  .tech-icons, .tools-icons, .interest-icons, .personal-icons {
+  .tech-icons, .tools-icons, .interest-icons {
     margin: 7px !important;
     transform: scale(0.8);
     
+  }
+  .personal-icons{
+    margin: 5px !important;
+    transform: scale(0.9);
   }
 }
 

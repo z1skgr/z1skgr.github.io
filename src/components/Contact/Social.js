@@ -1,8 +1,11 @@
 import React from "react";
 import SocialForm from "./SocialForm";
-import { Row,Col } from "react-bootstrap";
+import { Row,Col, Container } from "react-bootstrap";
 import {
-    SiYoutube
+    SiYoutube,
+    SiOsu,
+    SiSpotify,
+    SiEpicgames
   } from "react-icons/si";
   import {
     FaDiscord,
@@ -13,6 +16,7 @@ import {
     FaLinkedin,
     FaSkype,
     FaSteam,    
+
   } from "react-icons/fa";
 
 function Social() {
@@ -25,12 +29,12 @@ function Social() {
         <b>PERSONAL</b>
     </h1></span>
    
-  
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+  <Container>
+  <Row className="d-flex justify-content-between" style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
       <Col xs={4} md={2} className="personal-icons">
         <FaDiscord />
-        <SocialForm title={"Discord"} footer={"z1skgr"} />
+        <SocialForm title={"Discord"} footer={"z1skgr#2076"} link={"https://www.discordapp.com/users/z1skgr#2076."} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaTwitch />
@@ -38,7 +42,7 @@ function Social() {
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaInstagram />
-        <SocialForm title={"Instagram"} footer={"Christos Ziskas"} link={"https://www.linkedin.com/in/christos-ziskas-1b683822b"} />
+        <SocialForm title={"Instagram"} footer={"Christos Ziskas"} link={"https://www.instagram.com/christosziskas/"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaFacebook />
@@ -49,8 +53,8 @@ function Social() {
         <SocialForm title={"DnD Beyond"} footer={"Zisk"} link={"https://www.dndbeyond.com/members/Zisk"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
-        <FaSkype />
-        <SocialForm title={"Skype"} footer={"Christos Ziskas"} link="https://secure.skype.com/portal/profile?intsrc=client-_-windows-_-8.106.0.212-_-.userInfo.profile&tcg=a1abc8c1-f259-4bb8-985b-1f93838fd989" />
+        <SiOsu />
+        <SocialForm title={"Osu"} footer={"z1skgr"} link={"https://osu.ppy.sh/users/17307675"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <SiYoutube />
@@ -61,13 +65,31 @@ function Social() {
         <SocialForm title={"LinkedIn"} footer={"@christosziskas"} link={"https://www.linkedin.com/in/christos-ziskas-1b683822b/"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
+        <SiEpicgames />
+        <SocialForm title={"Epic Games"} footer={"czisk"} link={"https://store.epicgames.com/en-US/u/1ef2dfada23644dfbdaec5766e5b4aa5"} />
+      </Col>
+      <Col xs={4} md={2} className="personal-icons">
         <FaSteam />
         <SocialForm title={"Steam"} footer={"G0ds.Bless"} link={"https://steamcommunity.com/profiles/76561198118951691/"} />
       </Col>
+      
+      <Col xs={4} md={2} className="personal-icons">
+        <SiSpotify />
+        <SocialForm title={"Spotify"} footer={"Christos Ziskas"} link={"https://open.spotify.com/user/313ipubodrd5iuruiurvmrg6jbra?si=c7f6c79a65df4e9b"} />
+      </Col>
+      
+      
+      <Col xs={4} md={2} className="personal-icons">
+        <FaSkype />
+        <SocialForm title={"Skype"} footer={"cziskas@isc.tuc.gr"}  />
+      </Col>
+      
 
+             
 
-          
         </Row>
+  </Container>
+  
     </section>
    
 

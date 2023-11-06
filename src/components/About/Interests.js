@@ -1,16 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  FaDAndDBeyond,
-  FaSteam,
   FaChess,
   FaFootballBall,
   FaDog,
   FaBasketballBall,
   FaBeer,
   FaRunning,
-  FaTwitch,
-  FaBattleNet
 } from "react-icons/fa";
 import {
   SiCounterstrike,
@@ -31,9 +27,6 @@ function Interests() {
         <FaChess />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
-        <FaDAndDBeyond />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
         <FaFootballBall />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
@@ -46,16 +39,7 @@ function Interests() {
         <FaBasketballBall />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
-        <FaSteam />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
         <FaRunning />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
-        <FaTwitch />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
-        <FaBattleNet />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
         <SiCounterstrike />

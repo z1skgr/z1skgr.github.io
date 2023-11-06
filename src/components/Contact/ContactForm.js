@@ -101,14 +101,14 @@ function ContactForm() {
     <input type="message" className="form-control" id="message" name="message" value={formIn.message} onChange={handleMessage}/>
   </div>
   
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button style={{marginTop:"20px"}} type="submit" className="btn btn-primary">Submit</button>
 </form>
   </div>
   <div className="col-sm-3">
   <ul className="list-unstyled mb-0">
           <li>
           <FontAwesomeIcon className='icon' icon={faMap}/>
-            <p>Katerini, CA 60 100, Greece</p>
+            <p>Katerini, ZIP 60 100, Greece</p>
           </li>
           <li>
           <FontAwesomeIcon className='icon' icon={faPhone}/>
