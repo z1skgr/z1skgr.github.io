@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   FaChess,
-  FaFootballBall,
   FaDog,
   FaBasketballBall,
   FaBeer,
@@ -12,11 +11,8 @@ import {
   SiCounterstrike,
   SiFerrari,
   SiNba,
-  SiNetflix,
-  SiNintendo,
   SiPlaystation5,
   SiValorant,
-  SiEslgaming
 } from "react-icons/si";
 
 
@@ -25,9 +21,6 @@ function Interests() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="interest-icons">
         <FaChess />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
-        <FaFootballBall />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
         <FaBeer />
@@ -51,20 +44,12 @@ function Interests() {
         <SiNba />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
-        <SiNetflix />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
-        <SiNintendo />
-      </Col>
-      <Col xs={4} md={2} className="interest-icons">
         <SiPlaystation5 />
       </Col>
       <Col xs={4} md={2} className="interest-icons">
         <SiValorant />
       </Col>
-      <Col xs={4} md={2} className="interest-icons">
-        <SiEslgaming />
-      </Col>
+      
       
       
     </Row>

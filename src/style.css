@@ -592,6 +592,18 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.tool-tag, .interest-tag, .tech-tag{
+  font-size: 8px;
+  color: var(--imp-text-color) !important;
+  opacity: 0.25;
+  transition: all 0.3s ease 0s !important;
+}
+
+.tool-tag:hover, .interest-tag:hover, .tech-tag:hover {
+  opacity:1;
+  font-size: 15px;
+}
+
 .tech-project-icons {
   font-size: 2.5em !important;
   margin: 6px !important;

@@ -13,7 +13,6 @@ import {
   SiPycharm,
   SiWebflow,
   SiVirtualbox,
-  SiVmware,
   SiXilinx,
   SiTensorflow,
   SiPytorch,
@@ -24,7 +23,6 @@ import {
   SiRedux,
   SiGithubactions,
   SiJest,
-  SiJetbrains,
   SiNodemon,
   SiNotepadplusplus,
   SiNumpy,
@@ -36,7 +34,13 @@ import {
   SiEslint,
   SiDotenv,
   SiJsonwebtokens,
-  SiGithubpages} from "react-icons/si";
+  SiGithubpages,
+  SiGenius,
+  SiBootstrap,
+  SiNextdotjs,
+  SiRailway,
+  SiEmbarcadero
+} from "react-icons/si";
 import {
   DiEclipse,
   DiSublime,
@@ -48,7 +52,8 @@ import {
   DiPhotoshop,
   DiSqllite,
   DiStackoverflow,
-  DiVisualstudio
+  DiVisualstudio,
+  DiNodejs,
 } from "react-icons/di";
 import {
   FaRaspberryPi,
@@ -63,105 +68,246 @@ function Toolstack() {
   return (
     <>
      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+     <Col xs={4} md={2} className="tools-icons">
+        <DiNetbeans />
+        <div className="tool-tag">
+          Netbeans
+        </div>
+      </Col>
+      
       <Col xs={4} md={2} className="tools-icons">
-        <SiVirtualbox />
+        <SiIntellijidea />
+        <div className="tool-tag">
+          Intellijidea
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiEclipse />
+        <div className="tool-tag">
+          Eclipse
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiVisualstudio />
+        <div className="tool-tag">
+          Visual Studio Community
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
         <SiVisualstudiocode />
+        <div className="tool-tag">
+          Visual Studio
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiPycharm />
+        <div className="tool-tag">
+          PyCharm
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiEmbarcadero/>
+        <div className="tool-tag">
+          Embarcadero
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <FaUnity />
+        <div className="tool-tag">
+          Unity
+        </div>
+      </Col>  
+      <Col xs={4} md={2} className="tools-icons">
+        <SiXilinx />
+        <div className="tool-tag">
+          Xilinx
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiAndroidstudio />
+        <div className="tool-tag">
+          Android Studio
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiPhotoshop />
+        <div className="tool-tag">
+          Photoshop
+        </div>
+      </Col>
+      
+      <Col xs={4} md={2} className="tools-icons">
+      <SiGenius/>
+      <div className="tool-tag">
+          Genius
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiOctave />
+        <div className="tool-tag">
+          Octave
+        </div>
+      </Col>
+
+      <Row style={{marginTop: "100px"}}>
+        
+      </Row>
+
+      <Col xs={4} md={2} className="tools-icons">
+        <SiOverleaf />
+        <div className="tool-tag">
+          Overleaf
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiGithub />
+        <div className="tool-tag">
+          Github
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiGithubactions />
+        <div className="tool-tag">
+          Github Actions
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiGithubpages />
+        <div className="tool-tag">
+          Github Pages
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
         <SiPostman />
+        <div className="tool-tag">
+          Postman
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiXilinx />
+        <SiAnaconda />
+        <div className="tool-tag">
+          Anaconda
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiAnaconda />
+        <SiWebflow />
+        <div className="tool-tag">
+          Webflow
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiAndroidstudio />
+        <DiWordpress />
+        <div className="tool-tag">
+          Wordpress
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiGithub />
+        <DiMailchimp />
+        <div className="tool-tag">
+          MailChimp
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiOverleaf />
+        <DiSqllite />
+        <div className="tool-tag">
+          Sql Lite
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiPycharm />
+        <DiStackoverflow />
+        <div className="tool-tag">
+          Stack Overflow
+        </div>
+      </Col>
+      
+      <Row style={{marginTop: "100px"}}>
+        
+      </Row>
+      
+      <Col xs={4} md={2} className="tools-icons">
+        <SiTensorflow />
+        <div className="tool-tag">
+          Tensorflow
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiTensorflow />
+        <SiPytorch />
+        <div className="tool-tag">
+          PyTorch
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <  SiPytorch />
+        <SiPhpmyadmin />
+        <div className="tool-tag">
+          Phpmyadmin
+        </div>
       </Col>
+      
       <Col xs={4} md={2} className="tools-icons">
-        <  SiPhpmyadmin />
+        <SiApollographql />
+        <div className="tool-tag">
+          ApollographQL
+        </div>
       </Col>
-       <Col xs={4} md={2} className="tools-icons">
-        <  SiVmware />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiWebflow />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiIntellijidea />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiApollographql />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiEclipse />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  FaUnity />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiSublime />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiMailchimp />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiNetbeans />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiPhotoshop />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiSqllite />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiStackoverflow />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiGithubactions />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiJetbrains />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiNotepadplusplus />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiOctave />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  SiGithubpages />
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <  DiVisualstudio />
-      </Col>
+      
+
 
       
-      
+      <Col xs={4} md={2} className="tools-icons">
+        <DiSublime />
+        <div className="tool-tag">
+          Sublime
+        </div>
+      </Col> 
+      <Col xs={4} md={2} className="tools-icons">
+        <SiNotepadplusplus />
+        <div className="tool-tag">
+          Notepad++
+        </div>
+      </Col>   
+      <Col xs={4} md={2} className="tools-icons">
+      <SiBootstrap/>
+      <div className="tool-tag">
+          Bootstrap
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiNodejs />
+        <div className="tool-tag">
+          Node.js
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiNextdotjs />
+        <div className="tool-tag">
+          Next.js
+        </div>
+      </Col>
+     
+      <Col xs={4} md={2} className="tools-icons">
+        <SiRailway />
+        <div className="tool-tag">
+          Railway
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiNpm/>
+        <div className="tool-tag">
+          Npm
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiVirtualbox />
+        <div className="tool-tag">
+          Virtualbox
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiDocker />
+        <div className="tool-tag">
+          Docker
+        </div>
+      </Col>
 
       
 
@@ -173,58 +319,103 @@ function Toolstack() {
 
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tools-icons">
-        < SiCypress/>
+        <SiCypress/>
+        <div className="tool-tag">
+          CyPress
+        </div>
+      </Col>
+
+      <Col xs={4} md={2} className="tools-icons">
+        <SiLodash/>
+        <div className="tool-tag">
+          Lodash
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiExpo/>
+        <SiOpenssl/>
+        <div className="tool-tag">
+          OpenSSL
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiLodash/>
+        <SiRedux/>
+        <div className="tool-tag">
+          Redux
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiOpenssl/>
+        <FaRaspberryPi/>
+        <div className="tool-tag">
+          RaspberryPi
+        </div>
+      </Col>
+      
+      <Col xs={4} md={2} className="tools-icons">
+        <SiJest/>
+        <div className="tool-tag">
+          Jest
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiRedux/>
+        <SiNodemon/>
+        <div className="tool-tag">
+          Nodemon
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < FaRaspberryPi/>
+        <SiNumpy/>
+        <div className="tool-tag">
+          Numpy
+        </div>
+      </Col>
+
+      <Col xs={4} md={2} className="tools-icons">
+        <SiPrettier/>
+        <div className="tool-tag">
+          Prettier
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < DiNpm/>
+        <SiSelenium/>
+        <div className="tool-tag">
+          Selenium
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiJest/>
+        <SiSequelize/>
+        <div className="tool-tag">
+          Sequelize
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiNodemon/>
+        <SiExpress/>
+        <div className="tool-tag">
+          Express
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiNumpy/>
+        <SiEslint/>
+        <div className="tool-tag">
+          EsLint
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        < SiOpenssl/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiPrettier/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiSelenium/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiSequelize/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiExpress/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiEslint/>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        < SiDotenv />
+        <SiDotenv />
+        <div className="tool-tag">
+          Dotenv
+        </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
         <SiJsonwebtokens/>
+        <div className="tool-tag">
+          Json webtokens
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiExpo/>
+        <div className="tool-tag">
+          Expo
+        </div>
       </Col>
      
       

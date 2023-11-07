@@ -4,12 +4,10 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
   DiJava,
-  DiJqueryLogo,
   DiLinux,
   DiHtml5,
   DiMarkdown,  
@@ -17,17 +15,12 @@ import {
   DiCss3
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiNextdotjs,
   SiPostgresql,
   SiTypescript,
   SiCsharp,
   SiDelphi,
   SiLatex,
-  SiRailway,
   SiC,
-  SiGenius,
-  SiBootstrap
 } from "react-icons/si";
 
 
@@ -36,79 +29,130 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
+        <div className="tech-tag">
+          C
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+        <div className="tech-tag">
+          C++
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+        <div className="tech-tag">
+          Java
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <div className="tech-tag">
+          Javascript
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
+        <div className="tech-tag">
+          Typescript
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
+        <div className="tech-tag">
+          C#
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <div className="tech-tag">
+          Python
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDelphi />
+        <div className="tech-tag">
+          Delphi
+        </div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJqueryLogo />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
+        <div className="tech-tag">
+          Html
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
+        <div className="tech-tag">
+          Css
+        </div>
+      </Col>
+      <Row style={{marginTop: "100px"}}>
+        
+      </Row>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLatex />
+        <div className="tech-tag">
+          Latex
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <div className="tech-tag">
+          Git
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiLinux />
+        <div className="tech-tag">
+          Linux
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMarkdown />
+        <div className="tech-tag">
+          Markdown
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+        <div className="tech-tag">
+          Postgresql
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+        <div className="tech-tag">
+          MongoDB
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
+        <div className="tech-tag">
+          Docker
+        </div>
       </Col>
+
+      
+      
       <Col xs={4} md={2} className="tech-icons">
-        <SiLatex />
+        <DiReact />
+        <div className="tech-tag">
+          React
+        </div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRailway />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiGenius/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiBootstrap/>
-      </Col>
+      
+      
+      
+      
+      
+ 
+      
+      
+      
+
+      
     </Row>
   );
 }
