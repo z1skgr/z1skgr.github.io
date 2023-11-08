@@ -64,7 +64,8 @@ function Projects() {
               title="Portfolio"
               description="My personal site using React.JS and Bootstrap"
               ghLink="https://github.com/z1skgr/z1skgr.github.io"
-              skills={[  <DiReact />, <SiVisualstudiocode/>, <SiGithubpages/>, <DiNodejs/>, <DiCss3/>, <  SiGithubactions />, < SiNodemon/>, <SiBootstrap/>
+              skills={[  {tech:<DiReact />,text:"React"}, {tech:<SiVisualstudiocode/>,text:"Visual Studio Code"},
+               {tech:<SiGithubpages/>,text:"GitHub Pages"}, {tech:<DiNodejs/>, text:"Node.js"}, {tech:<DiCss3/>,text:"Css"}, {tech:<SiGithubactions />,text:"GitHub Actions"}, {tech:< SiNodemon/>, text:"Nodemon"}, {tech:<SiBootstrap/>, text:"Bootstrap"}
                 ]}
               demoLink="https://z1skgr.github.io"
             />
@@ -81,7 +82,7 @@ function Projects() {
               title="RH implementation"
               description="Evolutionary algorithm analysis determing player's profile in Unity using ml-agents"
               ghLink="https://github.com/z1skgr/RH_-drive_car"
-              skills={[  <SiTensorflow/>, <SiPytorch/>, <SiAnaconda/>, <SiOverleaf/>, <FaUnity/>, <SiCsharp/>, <DiVisualstudio/>
+              skills={[ {tech: <SiTensorflow/>, text:"Tensorflow"}, {tech:<SiPytorch/>,text:"PyTorch"}, {tech:<SiAnaconda/>,text:"Anaconda"}, {tech:<SiOverleaf/>,text:"Overleaf"}, {tech:<FaUnity/>,text:"Unity"}, {tech:<SiCsharp/>,text:"C#"}, {tech:<DiVisualstudio/>,text:"Visual Studio Code"}
                 ]}
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -96,7 +97,7 @@ function Projects() {
               title="Solitaire"
               description="Classic Solitaire Card Game build with pygame graphics in Python"
               ghLink="https://github.com/z1skgr/SolitaireGame"
-              skills={[  <DiPython />, <FaRaspberryPi />,  <SiPycharm/>
+              skills={[ {tech:<DiPython />,text:"Python"}, {tech:<FaRaspberryPi />,text:"RasberryPi"}, {tech:<SiPycharm/>, text:"PyCharm"}
                 ]}
           //    demoLink="https://github.com/z1skgr/SolitaireGame"
             />
@@ -110,7 +111,7 @@ function Projects() {
               description="SM & Omega calculations - Parallization protocols for accelerating algorithm performance using Intel Intrinsincs"
               ghLink="https://github.com/z1skgr/SIMD-instruction-MPI-PTHREADS-parallism"
              // demoLink="https://github.com/z1skgr/SIMD-instruction-MPI-PTHREADS-parallismhttps://blogs.soumya-jit.tech/"
-             skills={[<DiLinux/> , <SiIntel />, <SiC />,
+             skills={[{tech:<DiLinux/>,text:"Linux"} , {tech:<SiIntel />, text:"Intel intrinsics"}, {tech:<SiC />,text:"C"},
                 ]}
             />
           </Col>
@@ -123,7 +124,7 @@ function Projects() {
               description="Dynamic scheduling Processor - Simple Tomasulo-based processor back-end in VHDL"
               ghLink="https://github.com/z1skgr/Tomasulo-BASED-processor"
            //   demoLink="https://github.com/z1skgr/Tomasulo-BASED-processor" 
-           skills={[  <SiXilinx />
+           skills={[  {tech:<SiXilinx />,text:"Xilinx"}
              ]}          
             />
             
@@ -136,7 +137,7 @@ function Projects() {
               title="TinyOS3 Updates"
               description="Simple-minded VM - Multicore preemptive scheduler, Serial terminal devices in pure Shell and C"
               ghLink="https://github.com/z1skgr/TinyOS3-updates"
-              skills={[  <SiC />, <DiLinux/> , <DiSublime/>
+              skills={[  {tech:<SiC />,text:"C"}, {tech:<DiLinux/>,text:"Linux"} , {tech:<DiSublime/>,text:"Sublime"}
                 ]}
             //  demoLink="https://github.com/z1skgr/TinyOS3-updates"
             />
@@ -149,7 +150,7 @@ function Projects() {
               title="N Queen Problem"
               description="Implementation using Hill Climbing and Local Constraints in Java "
               ghLink="https://github.com/z1skgr/N\_Queens"
-              skills={[  <DiJava />, <DiEclipse/>, 
+              skills={[  {tech:<DiJava />,text:"Java"}, {tech:<DiEclipse/>,text:"Eclipse"}, 
                 ]}
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -162,7 +163,7 @@ function Projects() {
               title="ANAC Competition"
               description="Agent participating to local Automated Negotiation Agent Competition"
               ghLink="https://github.com/z1skgr/ANAC-competition"
-              skills={[   <DiJava />, <SiGenius/>, <DiEclipse/>
+              skills={[   {tech:<DiJava />,text:"Java"}, {tech:<SiGenius/>,text:"Genius"}, {tech:<DiEclipse/>,text:"Eclipse"},
                 ]}
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />

@@ -48,16 +48,20 @@ function Certificates() {
   </p>
   
   <CertificateCard num={1}  title={"Full Stack Open"} year="2023" link="https://fullstackopen.com/en" githublink="https://github.com/z1skgr/FullOpenStack2023"
-skills={[  <DiReact />, <DiJavascript1/>, <DiMongodb/> , <DiNodejs/>, <SiTypescript/>, <DiGit/>, <SiApollographql/>, <SiRedux/>,
-<SiNodemon/>, <SiPrettier/>, <SiCypress/>, <SiJest/> , <SiExpress/> , <SiRailway/>, <SiPostman/>, <SiEslint/>, <SiLodash/>, <DiCss3 />, <SiDotenv/>
-] }/>
+skills={[ {tech: <DiReact />, text:"React"}, {tech:<DiJavascript1/>, text:"Javascript"}, {tech:<DiMongodb/>,text:"MongoDB"} , {tech:<DiNodejs/>, text:"Node.js"}, {tech:<SiTypescript/>,text:"Typescript"}, {tech:<DiGit/>,text:"Git"}, {tech:<SiApollographql/>, text:"ApolloGraphQL"}, {tech:<SiRedux/> , text:"Redux"},
+{tech:<SiNodemon/>,text:"Nodemon"}, {tech:<SiPrettier/>,text:"Prettier"}, {tech:<SiCypress/>,text:"CyPress"}, {tech:<SiJest/>,text:"Jest"} , {tech:<SiExpress/>,text:"Express"} , {tech:<SiRailway/>,text:"Railway"}, {tech:<SiPostman/>,text:"Postman"}, {tech:<SiEslint/>,text:"EsLint"}, {tech:<SiLodash/>,text:"Lodash"}, {tech:<DiCss3 />,text:"Css"}, {tech:<SiDotenv/>, text:"Dotenv"}
+] }
+
+/>
 <CertificateCard num={2}  title={"Full Stack Open React Native"} year="2023" link="https://fullstackopen.com/en/part10"  githublink="https://github.com/z1skgr/FullOpenStack2023_ReactNative"
-skills={[  <SiAndroidstudio /> , <SiExpo/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>
-]}/>
+skills={[  {tech:<SiAndroidstudio />, text:"Android Studio"} , {tech:<SiExpo/>,text:"Expo"},{tech:<SiEslint/>,text:"EsLint"},  {tech:<SiApollographql/>, text:"ApolloGraphQL"}, {tech:<SiDotenv/>, text:"Dotenv"}, {tech: <DiReact />, text:"React"}, {tech:<DiGit/>,text:"Git"}, {tech:<DiCss3 />,text:"Css"}
+]}
+/>
 <CertificateCard num={3}  title={"Full Stack Open Databases"} year="2023" link="https://fullstackopen.com/en/part13"  githublink="https://github.com/z1skgr/full-stack-open-sql"
-skills={[  <SiPostgresql /> , <SiSequelize/>, <SiEslint/>, <SiApollographql/>, <SiDotenv/>,  <DiReact />, <DiGit/>, <DiCss3/>, <DiDocker/>,
-<SiExpress/>, <SiGithub/>, <DiNodejs/>, <SiJsonwebtokens/>
-]}/>
+skills={[  {tech:<SiPostgresql />, text: "PostgreSQL"} , {tech:<SiSequelize/>, text: "Sequelize"}, {tech:<SiEslint/>,text:"ESLint"}, {tech:<SiApollographql/>, text:"ApolloGraphQL"}, {tech:<SiDotenv/>, text:"Dotenv"},  {tech: <DiReact />, text:"React"},{tech:<DiGit/>,text:"Git"}, {tech:<DiCss3 />,text:"Css"}, {tech:<DiDocker/>,text:"Docker"},
+{tech:<SiExpress/>,text:"Express"}, {tech:<SiGithub/>,text:"GitHub"}, {tech:<DiNodejs/>, text:"Node.js"}, {tech:<SiJsonwebtokens/>,text:"Json webtokens"}
+]} 
+/>
   
    
 </Container>

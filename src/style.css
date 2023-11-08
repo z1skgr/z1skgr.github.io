@@ -592,16 +592,22 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
-.tool-tag, .interest-tag, .tech-tag{
+.tool-tag, .interest-tag, .tech-tag, .cert-tag, .project-tag{
   font-size: 8px;
   color: var(--imp-text-color) !important;
   opacity: 0.25;
   transition: all 0.3s ease 0s !important;
 }
 
-.tool-tag:hover, .interest-tag:hover, .tech-tag:hover {
+
+.tool-tag:hover, .interest-tag:hover, .tech-tag:hover, .cert-tag:hover {
   opacity:1;
   font-size: 15px;
+}
+
+.project-tag:hover{
+  opacity:1;
+  font-size: 11px;
 }
 
 .tech-project-icons {
@@ -643,6 +649,9 @@ button:focus {
   .tech-cert-icons {
     margin: 5px !important;
   }
+  .cert-tag, .project-tag{
+    transform:scale(1.1) !important;
+  }
 }
 
 .tech-project-icons:hover {
@@ -676,6 +685,7 @@ button:focus {
     margin: 5px !important;
     transform: scale(0.9);
   }
+  
 }
 
 .tech-icons:hover, .interest-icons:hover, .tools-icons:hover, .personal-icons:hover {

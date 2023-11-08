@@ -19,10 +19,15 @@ function CertificateCard(props) {
     </div>
     <div className="col-md-4" style={{justifyContent:"center", marginLeft:"20px"}}>
       <Row>
-      {props.skills.map((skill, i) => {
+      {props.skills.map((skill, i,j) => {
                                   return <Col key={i} xs={4} md={2} className="tech-cert-icons">
-                            {skill}
+                            {skill.tech}
+                            <div key={j}className="tool-tag">
+                            {skill.text}
+                            </div>
                             </Col>;})}
+                            
+                           
       </Row>
     
     </div>
