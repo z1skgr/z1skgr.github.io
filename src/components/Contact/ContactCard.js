@@ -8,7 +8,7 @@ import ContactForm from "./ContactForm"
 function ContactCard() {
 
   return (
- <div>
+ <div style={{marginBottom: "150px"}}>
       <div >
       <p className="home-about-body" style={{textAlign: "center"}}>
       My inbox is always open. Whether you have a question or 

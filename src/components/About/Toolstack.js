@@ -24,7 +24,6 @@ import {
   SiGithubactions,
   SiJest,
   SiNodemon,
-  SiNotepadplusplus,
   SiNumpy,
   SiOctave,
   SiPrettier,
@@ -39,14 +38,13 @@ import {
   SiBootstrap,
   SiNextdotjs,
   SiRailway,
-  SiEmbarcadero
+  SiEmbarcadero,
+  SiWordpress
 } from "react-icons/si";
 import {
   DiEclipse,
   DiSublime,
-  DiWordpress,
   DiDocker,
-  DiMailchimp,
   DiNetbeans,
   DiNpm,
   DiPhotoshop,
@@ -74,7 +72,12 @@ function Toolstack() {
           Netbeans
         </div>
       </Col>
-      
+      <Col xs={4} md={2} className="tools-icons">
+        <SiXilinx />
+        <div className="tool-tag">
+          Xilinx
+        </div>
+      </Col>
       <Col xs={4} md={2} className="tools-icons">
         <SiIntellijidea />
         <div className="tool-tag">
@@ -117,24 +120,14 @@ function Toolstack() {
           Unity
         </div>
       </Col>  
-      <Col xs={4} md={2} className="tools-icons">
-        <SiXilinx />
-        <div className="tool-tag">
-          Xilinx
-        </div>
-      </Col>
+      
       <Col xs={4} md={2} className="tools-icons">
         <SiAndroidstudio />
         <div className="tool-tag">
           Android Studio
         </div>
       </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <DiPhotoshop />
-        <div className="tool-tag">
-          Photoshop
-        </div>
-      </Col>
+      
       
       <Col xs={4} md={2} className="tools-icons">
       <SiGenius/>
@@ -149,7 +142,7 @@ function Toolstack() {
         </div>
       </Col>
 
-      <Row style={{marginTop: "100px"}}>
+      <Row style={{ marginTop: "100px"}}>
         
       </Row>
 
@@ -178,6 +171,31 @@ function Toolstack() {
         </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
+        <DiSqllite />
+        <div className="tool-tag">
+          Sql Lite
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiWebflow />
+        <div className="tool-tag">
+          Webflow
+        </div>
+      </Col>
+     
+      <Col xs={4} md={2} className="tools-icons">
+        <DiStackoverflow />
+        <div className="tool-tag">
+          Stack Overflow
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <DiPhotoshop />
+        <div className="tool-tag">
+          Photoshop
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
         <SiPostman />
         <div className="tool-tag">
           Postman
@@ -190,33 +208,9 @@ function Toolstack() {
         </div>
       </Col>
       <Col xs={4} md={2} className="tools-icons">
-        <SiWebflow />
-        <div className="tool-tag">
-          Webflow
-        </div>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <DiWordpress />
+        <SiWordpress />
         <div className="tool-tag">
           Wordpress
-        </div>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <DiMailchimp />
-        <div className="tool-tag">
-          MailChimp
-        </div>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <DiSqllite />
-        <div className="tool-tag">
-          Sql Lite
-        </div>
-      </Col>
-      <Col xs={4} md={2} className="tools-icons">
-        <DiStackoverflow />
-        <div className="tool-tag">
-          Stack Overflow
         </div>
       </Col>
       
@@ -259,12 +253,6 @@ function Toolstack() {
           Sublime
         </div>
       </Col> 
-      <Col xs={4} md={2} className="tools-icons">
-        <SiNotepadplusplus />
-        <div className="tool-tag">
-          Notepad++
-        </div>
-      </Col>   
       <Col xs={4} md={2} className="tools-icons">
       <SiBootstrap/>
       <div className="tool-tag">

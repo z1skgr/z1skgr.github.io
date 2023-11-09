@@ -34,7 +34,7 @@ function Social() {
 
       <Col xs={4} md={2} className="personal-icons">
         <FaDiscord />
-        <SocialForm title={"Discord"} footer={"z1skgr#2076"} link={"https://www.discordapp.com/users/z1skgr#2076."} />
+        <SocialForm title={"Discord"} footer={"z1skgr#2076"} link={"https://discord.gg/X8HnEwsJ"} />
       </Col>
       <Col xs={4} md={2} className="personal-icons">
         <FaTwitch />

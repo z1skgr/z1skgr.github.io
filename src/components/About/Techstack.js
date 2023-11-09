@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+
 import {
   DiJavascript1,
   DiReact,
@@ -34,9 +34,9 @@ function Techstack() {
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiC />
         <div className="tech-tag">
-          C++
+          Embedded C
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">

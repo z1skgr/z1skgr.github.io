@@ -22,7 +22,7 @@ function CertificateCard(props) {
       {props.skills.map((skill, i,j) => {
                                   return <Col key={i} xs={4} md={2} className="tech-cert-icons">
                             {skill.tech}
-                            <div key={j}className="tool-tag">
+                            <div key={j} className="tool-tag">
                             {skill.text}
                             </div>
                             </Col>;})}

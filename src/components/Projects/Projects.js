@@ -20,7 +20,9 @@ import {
   DiReact,
   DiNodejs,
   DiCss3,
-  DiVisualstudio
+  DiVisualstudio,
+  DiNetbeans
+
 } from "react-icons/di";
 import {
   SiIntel,
@@ -65,7 +67,7 @@ function Projects() {
               description="My personal site using React.JS and Bootstrap"
               ghLink="https://github.com/z1skgr/z1skgr.github.io"
               skills={[  {tech:<DiReact />,text:"React"}, {tech:<SiVisualstudiocode/>,text:"Visual Studio Code"},
-               {tech:<SiGithubpages/>,text:"GitHub Pages"}, {tech:<DiNodejs/>, text:"Node.js"}, {tech:<DiCss3/>,text:"Css"}, {tech:<SiGithubactions />,text:"GitHub Actions"}, {tech:< SiNodemon/>, text:"Nodemon"}, {tech:<SiBootstrap/>, text:"Bootstrap"}
+               {tech:<SiGithubpages/>,text:"GitHub Pages"},{tech:<SiGithubactions />,text:"GitHub Actions"}, {tech:<DiNodejs/>, text:"Node.js"}, {tech:<DiCss3/>,text:"Css"},  {tech:< SiNodemon/>, text:"Nodemon"}, {tech:<SiBootstrap/>, text:"Bootstrap"}
                 ]}
               demoLink="https://z1skgr.github.io"
             />
@@ -82,8 +84,9 @@ function Projects() {
               title="RH implementation"
               description="Evolutionary algorithm analysis determing player's profile in Unity using ml-agents"
               ghLink="https://github.com/z1skgr/RH_-drive_car"
-              skills={[ {tech: <SiTensorflow/>, text:"Tensorflow"}, {tech:<SiPytorch/>,text:"PyTorch"}, {tech:<SiAnaconda/>,text:"Anaconda"}, {tech:<SiOverleaf/>,text:"Overleaf"}, {tech:<FaUnity/>,text:"Unity"}, {tech:<SiCsharp/>,text:"C#"}, {tech:<DiVisualstudio/>,text:"Visual Studio Code"}
-                ]}
+              skills={[ {tech: <SiTensorflow/>, text:"Tensorflow"}, {tech:<SiPytorch/>,text:"PyTorch"}, {tech:<SiAnaconda/>,text:"Anaconda"}, {tech:<SiOverleaf/>,text:"Overleaf"}, {tech:<FaUnity/>,text:"Unity"}, 
+              {tech:<SiCsharp/>,text:"C#"}, {tech:<DiVisualstudio/>,text:"Visual Studio Community"}
+              ]}
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -111,7 +114,7 @@ function Projects() {
               description="SM & Omega calculations - Parallization protocols for accelerating algorithm performance using Intel Intrinsincs"
               ghLink="https://github.com/z1skgr/SIMD-instruction-MPI-PTHREADS-parallism"
              // demoLink="https://github.com/z1skgr/SIMD-instruction-MPI-PTHREADS-parallismhttps://blogs.soumya-jit.tech/"
-             skills={[{tech:<DiLinux/>,text:"Linux"} , {tech:<SiIntel />, text:"Intel intrinsics"}, {tech:<SiC />,text:"C"},
+             skills={[{tech:<DiLinux/>,text:"Linux"} , {tech:<SiIntel />, text:"Intel intrinsics"}, {tech:<SiC />,text:"C"}, {tech: <DiNetbeans/>, text:"Netbeans"}
                 ]}
             />
           </Col>
