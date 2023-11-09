@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImRadioChecked } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -31,21 +31,21 @@ function AboutCard() {
             <br />
             <br />
             <br />
-            Apart from coding, some other activities that I love!
+            Some other activities that I love!
             </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImRadioChecked /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Track & Field
+              <ImRadioChecked /> Track & Field
             </li>
             <li className="about-activity">
-              <ImPointRight /> Role-play games
+              <ImRadioChecked /> Role-play games
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(151 123 171)" }}>
             "Build things and learn the world. This will make the difference!"{" "}
           </p>
           <footer className="blockquote-footer">Chris</footer>

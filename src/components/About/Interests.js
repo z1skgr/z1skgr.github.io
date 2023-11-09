@@ -58,7 +58,7 @@ function Interests() {
       <Col xs={4} md={2} className="interest-icons">
         <SiFerrari />
         <div className="interest-tag">
-          Ferrar
+          Ferrari
         </div>
       </Col>
       <Col xs={4} md={2} className="interest-icons">

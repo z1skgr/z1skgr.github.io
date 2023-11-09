@@ -30,7 +30,7 @@ function Personals() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, C++, Java, Python. </b>
+                <b className="purple"> C, Java, Python. </b>
               </i>
               <br />
               <br />
@@ -47,7 +47,7 @@ function Personals() {
               Οpen to learning stuff that makes me intrigued.
               <br />
               <br />
-              Whenever possible, I apply my interest for developing software
+              Whenever possible, I motivate myself developing software
               with  <i>
                 <b className="purple">
                   {" "}
