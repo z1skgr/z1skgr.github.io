@@ -10,6 +10,7 @@ import nqueens from "../../Assets/Projects/nqueens.png";
 import intel from "../../Assets/Projects/intc.webp";
 import homepage from "../../Assets/Projects/homepage.gif";
 import RH from "../../Assets/Projects/RH.gif";
+import cpu from "../../Assets/Projects/cpu-Banner.png";
 
 import {
   DiPython,
@@ -90,8 +91,21 @@ function Projects() {
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cpu}
+              isBlog={false}
+              title="High Level Synthesis in Data structures"
+              description="Processing protocol using blocks of data in data structures using Vivado HLS"
+              ghLink="https://github.com/z1skgr/reconf-Computing__HLS"
+              skills={[ {tech:<SiC/>,text:"C"}, {tech:<SiXilinx/>,text:"Xilinx"}
+              ]}
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
           </Row>
-       
+
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
