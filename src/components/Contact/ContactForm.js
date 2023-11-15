@@ -46,11 +46,18 @@ function ContactForm() {
 
   }
 
+
+
   const form = useRef(0)
   function sendEmail(e) {
     e.preventDefault();
-
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    e.stopPropagation();
+    if(!formIn.from_email || !formIn.from_name || !formIn.message){
+      alert("Please fill in all fields");
+    }
+    else{
+      
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
           console.log(result.text);
           Swal.fire({
@@ -70,6 +77,8 @@ function ContactForm() {
         from_email: '',
         message: '',
       })
+    }
+    
   }
 
   return (
@@ -94,11 +103,12 @@ function ContactForm() {
   </div>
   <div className="form-group">
     <label htmlFor="from_name">Name</label>
-    <input type="from_name" className="form-control" id="from_name" name="from_name" value={formIn.from_name} onChange={handleName}/>
+    <input type="from_name" className="form-control" id="from_name" name="from_name" value={formIn.from_name} onChange={handleName} placeholder="Enter your name"/>
   </div>
   <div className="form-group">
     <label htmlFor="message">Message</label>
-    <input type="message" className="form-control" id="message" name="message" value={formIn.message} onChange={handleMessage}/>
+    <textarea rows="4" cols="50" value={formIn.message} className="form-control" id="message" name="message" onChange={handleMessage} placeholder="Enter your message here..">
+    </textarea>
   </div>
   
   <button style={{marginTop:"20px"}} type="submit" className="btn btn-primary">Submit</button>
