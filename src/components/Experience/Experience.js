@@ -4,6 +4,7 @@ import zl from "../../Assets/zl.png";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
 import tech from "../../Assets/tech.png";
+import joblogo from "../../Assets/ai2cyber_logo.jfif";
 
 function Experience() {
   return (
@@ -22,8 +23,8 @@ function Experience() {
               header="Zalikas Liontas Co"
               title="Assistant Manager"
               descriptions= {["Design, and planning on Industrial-Electromechanical projects", 
-              "Intelligent controllers, Electronic supply",
-              "PV parks, Inverters, Energy Optimization"]}
+              "Intelligent controllers, Electronic supply", "Electrical drawings to facilitate the understanding of procedures for the client.",
+              "PV parks, Inverters, Energy Optimization", "Troubleshooting with the team, demonstrate the installation steps."]}
               footer="October 2022- Present | Katerini, Pieria"
               tools= {null}
             />
@@ -41,14 +42,28 @@ function Experience() {
               imgPath={tech}
               header="24th Armored Brigade"
               title="IT Support"
-              descriptions= {["Archive directory from/to the headquarters", `Troubleshooting & hardware inspection`, "WAN/LAN supervision for military"]}
+              descriptions= {["Archive directory from/to the headquarters", `Troubleshooting & hardware inspection`, "LANs installation, management for military exercises" , "Supervision WANs of military units","Helpdesk"]}
               footer="Jan 2022 - Aug. 2022 | Litochoro, Greece"
               tools={null}
             />
           </Col>
-
+          <Col md={4} className="experience-old-card">
+            <ExperienceCard
+              imgPath={joblogo}
+              header="AI2Cyber"
+              title="System Engineer"
+              descriptions= {["Experience in Windows and Linux", `Configuring and troubleshooting routes, VPNs and firewalls`, "Orchestrate advanced workflows for application deployment.","Automating tasks and managing configurations. ",
+              "Document processes and system","Automation management using Python and Bash.","Containerized application deployment and management with Docker.",
+              "Troubleshoot cloud-based environments. Experience with AWS (EC2, VPCs, S3).",
+              "GNS3 experience in network design and simulation."
+              ]}
+              footer="Aug 2024 - Oct. 2024 | Remote"
+              tools={null}
+            />
+          </Col>
           
         </Row>
+        
       </Container>
     </Container>
 

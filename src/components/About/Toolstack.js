@@ -39,7 +39,9 @@ import {
   SiNextdotjs,
   SiRailway,
   SiEmbarcadero,
-  SiWordpress
+  SiWordpress,
+  SiGitea,
+  SiAnsible
 } from "react-icons/si";
 import {
   DiEclipse,
@@ -211,6 +213,18 @@ function Toolstack() {
         <SiWordpress />
         <div className="tool-tag">
           Wordpress
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiGitea />
+        <div className="tool-tag">
+          GiTea
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tools-icons">
+        <SiAnsible />
+        <div className="tool-tag">
+          Ansible
         </div>
       </Col>
       

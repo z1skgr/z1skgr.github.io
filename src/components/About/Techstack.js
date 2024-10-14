@@ -12,7 +12,9 @@ import {
   DiHtml5,
   DiMarkdown,  
   DiDocker,
-  DiCss3
+  DiCss3,
+  DiDjango,
+  DiAws
 } from "react-icons/di";
 import {
   SiPostgresql,
@@ -21,8 +23,11 @@ import {
   SiDelphi,
   SiLatex,
   SiC,
+  SiElasticstack,
+  SiKibana
 } from "react-icons/si";
-
+import gns3 from "../../Assets/gns3.png"
+import scrapy from "../../Assets/scrapy-logo.png"
 
 function Techstack() {
   return (
@@ -142,7 +147,51 @@ function Techstack() {
           React
         </div>
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+        <div className="tech-tag">
+          Django
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+        <div className="tech-tag">
+          AWS
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiElasticstack />
+        <div className="tech-tag">
+          Elasticstack
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+        <div className="tech-tag">
+          Kibana
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img
+                src={gns3}
+                alt="gns3"
+                className="img-fluid"
+              />
+        <div className="tech-tag">
+          Gns3
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img
+                src={scrapy}
+                alt="scrapy"
+                className="img-fluid"
+              />
+        <div className="tech-tag">
+          Scrapy
+        </div>
+      </Col>
+
       
       
       

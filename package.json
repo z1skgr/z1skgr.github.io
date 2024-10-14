@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.4.5.3",
+  "version": "0.5",
   "homepage": "https://z1skgr.github.io",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-email/link": "0.0.5",
+    "@react-icons/all-files": "^4.1.0",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -38,7 +39,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "dev": "nodemon index.js",
+    "dev": "nodemon -L index.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

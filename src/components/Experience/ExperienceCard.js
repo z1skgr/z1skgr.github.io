@@ -8,8 +8,8 @@ function ExperienceCard(props) {
       <Card.Header>{props.header}</Card.Header>
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Col >
-      <Card.Img style={{height:"8em", width:"20em "}} variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Title>{props.title}</Card.Title>
+      <Card.Img style={{height:"7em", width:"15em"}} variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Title style={{ fontWeight: 'bold' }}>{props.title}</Card.Title>
       </Col>
       </Row>
       
@@ -20,7 +20,7 @@ function ExperienceCard(props) {
 
          
         {props.descriptions.map((des,i)=>{
-          return <li key={i}>
+          return <li key={i} style={{textAlign: "left"}}>
             {des}
           </li>
             

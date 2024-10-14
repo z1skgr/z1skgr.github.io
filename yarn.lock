@@ -1733,6 +1733,11 @@
   dependencies:
     react "18.2.0"
 
+"@react-icons/all-files@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/@react-icons/all-files/-/all-files-4.1.0.tgz"
+  integrity sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ==
+
 "@react-pdf/fns@2.0.1":
   version "2.0.1"
   resolved "https://registry.npmjs.org/@react-pdf/fns/-/fns-2.0.1.tgz"
