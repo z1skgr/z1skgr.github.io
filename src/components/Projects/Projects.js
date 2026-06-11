@@ -11,6 +11,8 @@ import intel from "../../Assets/Projects/intc.webp";
 import homepage from "../../Assets/Projects/homepage.gif";
 import RH from "../../Assets/Projects/RH.gif";
 import cpu from "../../Assets/Projects/cpu-Banner.png";
+import panelapp from "../../Assets/Projects/panelapp-im.png";
+import gemini from "../../Assets/gemini-ai-48.png";
 
 import {
   DiPython,
@@ -22,7 +24,9 @@ import {
   DiNodejs,
   DiCss3,
   DiVisualstudio,
-  DiNetbeans
+  DiNetbeans,
+  DiHtml5,
+  DiDocker
 
 } from "react-icons/di";
 import {
@@ -40,7 +44,11 @@ import {
   SiPytorch,
   SiAnaconda,
   SiOverleaf,
-  SiCsharp
+  SiCsharp,
+  SiGrafana,
+  SiPrometheus,
+  SiDotnet,
+  SiMicrosoftsqlserver
   
 } from "react-icons/si";
 import {
@@ -60,7 +68,25 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-top-card">
+          <Col md={4} className="project-top-card panelapp-card">
+            <ProjectCard
+              imgPath={panelapp}
+              isBlog={false}
+              title="PanelApp"
+              description="Internal ERP-style platform for managing electrical distribution panel production"
+              ghLink="https://github.com/z1skgr/z1skgr.github.io"
+              skills={[  {tech:<DiVisualstudio/>,text:"Visual Studio"},{tech:<DiHtml5/>,text:"HTML5"},{tech:<DiDocker/>,text:"Docker"},{tech:<SiCsharp/>,text:"C#"},
+                {tech:<DiCss3/>,text:"Css"},  {tech:<SiBootstrap/>, text:"Bootstrap"}, {tech:<SiGrafana/>, text:"Grafana"}, {tech:<img src={gemini} alt="Gemini" style={{ width: '2rem', height: '2rem' }} />, text:"Gemini"},
+                {tech:<SiMicrosoftsqlserver/>, text:"Microsoft SQL Server"}, {tech:<SiPrometheus/>, text:"Prometheus"}, {tech:<SiDotnet/>, text:" .NET Framework"}]}
+              //demoLink="https://z1skgr.github.io"
+            />
+          </Col>
+        </Row>
+        <h4 style={{ marginTop:"125px", color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </h4>
+        <Row style={{justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={homepage}
               isBlog={false}
@@ -73,11 +99,6 @@ function Projects() {
               demoLink="https://z1skgr.github.io"
             />
           </Col>
-        </Row>
-        <h4 style={{ marginTop:"125px", color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </h4>
-        <Row style={{justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RH}
@@ -103,6 +124,7 @@ function Projects() {
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
+
           </Row>
 
 

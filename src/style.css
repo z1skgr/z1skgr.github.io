@@ -625,6 +625,22 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+/* Ensure image-based icons match the size/alignment of react-icons SVGs */
+.tech-project-icons img {
+  width: 1em !important;
+  height: 1em !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+}
+
+/* Ensure image icons inside `.tech-icons` match the SVG icon sizing */
+.tech-icons img {
+  width: 1em !important;
+  height: 1em !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+}
+
 .tech-cert-icons {
 
   font-size: 2em !important;
@@ -864,4 +880,13 @@ button:focus {
 #emailHelp {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.75) !important;
+}
+
+
+.panelapp-card img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }

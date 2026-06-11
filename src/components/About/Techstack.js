@@ -24,10 +24,14 @@ import {
   SiLatex,
   SiC,
   SiElasticstack,
+  SiGrafana,
+  SiPrometheus,
+  SiMicrosoftsqlserver,
   SiKibana
 } from "react-icons/si";
 import gns3 from "../../Assets/gns3.png"
 import scrapy from "../../Assets/scrapy-logo.png"
+import gemini from "../../Assets/gemini-ai-48.png"
 
 function Techstack() {
   return (
@@ -139,6 +143,25 @@ function Techstack() {
         </div>
       </Col>
 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana />
+        <div className="tech-tag">
+          Grafana
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrometheus />
+        <div className="tech-tag">
+          Prometheus
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsqlserver />
+        <div className="tech-tag">
+          Microsoft SQL Server
+        </div>
+      </Col>
+
       
       
       <Col xs={4} md={2} className="tech-icons">
@@ -189,6 +212,17 @@ function Techstack() {
               />
         <div className="tech-tag">
           Scrapy
+        </div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img
+                src={gemini}
+                alt="gemini"
+                className="img-fluid"
+              />
+        <div className="tech-tag">
+          Gemini
         </div>
       </Col>
 
