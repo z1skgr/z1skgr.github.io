@@ -651,7 +651,10 @@ button:focus {
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 4px !important;
-  display: table !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
@@ -882,11 +885,448 @@ button:focus {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+/* --------- */
+/* Certificate Cards */
+/* --------- */
+.certificate-card-container {
+  color: white !important;
+  margin-top: 22px !important;
+  margin-bottom: 22px !important;
+}
 
-.panelapp-card img {
-  width: 70%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  object-fit: contain;
+.certificate-card-row {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 18px !important;
+  padding: 18px !important;
+  border-radius: 14px !important;
+  background-color: rgba(17, 16, 16, 0.35) !important;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.25) !important;
+}
+
+.certificate-number {
+  flex: 0 0 34px !important;
+  font-weight: 700 !important;
+  color: var(--imp-text-color) !important;
+}
+
+.certificate-title {
+  flex: 0 0 180px !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  overflow-wrap: anywhere !important;
+}
+
+.certificate-year {
+  flex: 0 0 64px !important;
+  font-weight: 600 !important;
+}
+
+.certificate-skills {
+  flex: 1 1 420px !important;
+  min-width: 0 !important;
+}
+
+.certificate-skills-row {
+  justify-content: center !important;
+  margin: 0 !important;
+}
+
+.certificate-actions {
+  flex: 0 0 170px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 10px !important;
+}
+
+.certificate-action-row {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px !important;
+}
+
+.certificate-action-btn {
+  min-width: 78px !important;
+  white-space: nowrap !important;
+}
+
+.certificate-download-btn {
+  width: 100% !important;
+}
+
+/* Only the main PanelApp image, not the skill icons inside the card */
+.panelapp-card .card-img-top {
+  width: 65% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 991px) {
+  .certificate-card-row {
+    flex-wrap: wrap !important;
+  }
+
+  .certificate-title {
+    flex: 1 1 240px !important;
+  }
+
+  .certificate-skills {
+    flex: 1 1 100% !important;
+  }
+
+  .certificate-actions {
+    flex: 1 1 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .certificate-card-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .certificate-card-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    padding: 16px 12px !important;
+  }
+
+  .certificate-number,
+  .certificate-title,
+  .certificate-year {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .certificate-skills {
+    width: 100% !important;
+  }
+
+  .certificate-action-row {
+    flex-wrap: wrap !important;
+  }
+
+  .certificate-action-btn {
+    flex: 1 1 110px !important;
+    width: 100% !important;
+  }
+
+  .certificate-download-btn {
+    flex: 0 0 100% !important;
+  }
+
+  .tech-cert-icons {
+    flex: 0 0 calc(33.333% - 12px) !important;
+    max-width: calc(33.333% - 12px) !important;
+    margin: 5px !important;
+    padding: 6px 2px !important;
+    font-size: 1.7em !important;
+  }
+
+  .tech-cert-icons:hover {
+    transform: scale(1.05) !important;
+  }
+
+  .panelapp-card .card-img-top {
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .tech-cert-icons {
+    flex: 0 0 calc(50% - 12px) !important;
+    max-width: calc(50% - 12px) !important;
+  }
+}
+
+/* --------- */
+/* Contact + Personal polish */
+/* --------- */
+.contact-card-wrapper {
+  margin-bottom: 90px !important;
+}
+
+.contact-intro {
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  padding-top: 32px !important;
+  line-height: 1.75 !important;
+  text-align: center !important;
+}
+
+.contact-form-row {
+  width: 100% !important;
+}
+
+.contact-form-wrapper {
+  width: 100% !important;
+  max-width: 1120px !important;
+  margin: 70px auto 110px !important;
+  padding: 0 16px !important;
+}
+
+.contact-grid {
+  display: grid !important;
+  grid-template-columns: minmax(150px, 220px) minmax(320px, 1fr) minmax(230px, 285px) !important;
+  gap: 28px !important;
+  align-items: stretch !important;
+}
+
+.contact-logo-panel,
+.contact-form-card,
+.contact-details-card {
+  border: 1.7px solid rgba(200, 137, 230, 0.42) !important;
+  border-radius: 18px !important;
+  background-color: rgba(17, 16, 16, 0.28) !important;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.24) !important;
+}
+
+.contact-logo-panel {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 26px !important;
+}
+
+.contact-logo {
+  width: min(150px, 70vw) !important;
+  height: auto !important;
+  border-radius: 50% !important;
+  opacity: 0.95 !important;
+}
+
+.contact-form-card {
+  padding: 28px !important;
+}
+
+.contact-field {
+  margin-bottom: 18px !important;
+}
+
+.contact-field label {
+  margin-bottom: 8px !important;
+  font-weight: 600 !important;
+}
+
+.contact-field .form-control {
+  border-radius: 10px !important;
+  border: 1px solid rgba(200, 137, 230, 0.38) !important;
+}
+
+.contact-submit-btn {
+  width: 100% !important;
+  margin-top: 10px !important;
+  border-radius: 10px !important;
+  padding: 10px 18px !important;
+  font-weight: 600 !important;
+}
+
+.contact-details-card {
+  display: flex !important;
+  align-items: center !important;
+  padding: 26px 22px !important;
+}
+
+.contact-details-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.contact-details-list li {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin-bottom: 22px !important;
+}
+
+.contact-details-list li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.contact-icon {
+  color: var(--imp-text-color) !important;
+  font-size: 1.25rem !important;
+  flex: 0 0 24px !important;
+  margin-top: 3px !important;
+}
+
+.contact-details-list p {
+  margin: 0 !important;
+  line-height: 1.5 !important;
+  overflow-wrap: anywhere !important;
+}
+
+.personal-section {
+  padding-top: 20px !important;
+  padding-bottom: 80px !important;
+}
+
+.personal-heading {
+  color: white !important;
+  text-align: center !important;
+  margin-bottom: 34px !important;
+  letter-spacing: 0.08em !important;
+}
+
+.personal-container {
+  max-width: 1140px !important;
+}
+
+.personal-grid {
+  justify-content: center !important;
+  row-gap: 24px !important;
+}
+
+.personal-card-col {
+  display: flex !important;
+}
+
+.personal-icons {
+  width: 100% !important;
+  min-height: 205px !important;
+  margin: 0 !important;
+  padding: 24px 16px !important;
+  font-size: 3.2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 14px !important;
+  border-radius: 18px !important;
+  background-color: rgba(17, 16, 16, 0.25) !important;
+  overflow: visible !important;
+}
+
+.personal-icon-symbol {
+  line-height: 1 !important;
+  color: white !important;
+}
+
+.personal-social-card.social-card-view {
+  width: 100% !important;
+  height: auto !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  opacity: 1 !important;
+}
+
+.personal-social-card.social-card-view:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.personal-social-body {
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.personal-social-title {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 8px !important;
+}
+
+.personal-social-link {
+  display: block !important;
+  color: rgba(255, 255, 255, 0.86) !important;
+  font-size: 0.9rem !important;
+  line-height: 1.35 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+.personal-social-link:hover {
+  color: var(--imp-text-color) !important;
+}
+
+.personal-social-link-static:hover {
+  color: rgba(255, 255, 255, 0.86) !important;
+}
+
+@media (max-width: 991px) {
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 680px !important;
+    margin: 0 auto !important;
+  }
+
+  .contact-logo-panel {
+    padding: 22px !important;
+  }
+
+  .contact-logo {
+    width: 120px !important;
+  }
+
+  .contact-details-card {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-section {
+    padding-top: 125px !important;
+  }
+
+  .contact-card-wrapper {
+    margin-bottom: 60px !important;
+  }
+
+  .contact-intro {
+    padding-top: 20px !important;
+    font-size: 1.05em !important;
+  }
+
+  .contact-form-wrapper {
+    margin: 45px auto 70px !important;
+    padding: 0 !important;
+  }
+
+  .contact-form-card,
+  .contact-details-card {
+    padding: 22px 16px !important;
+  }
+
+  .contact-details-list li {
+    gap: 10px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .personal-section {
+    padding-bottom: 55px !important;
+  }
+
+  .personal-heading {
+    margin-bottom: 24px !important;
+    font-size: 1.7rem !important;
+  }
+
+  .personal-grid {
+    row-gap: 16px !important;
+  }
+
+  .personal-icons {
+    min-height: 180px !important;
+    padding: 22px 14px !important;
+    font-size: 2.8rem !important;
+    transform: none !important;
+  }
+
+  .personal-icons:hover {
+    transform: none !important;
+  }
 }
